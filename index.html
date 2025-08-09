@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sachin Kumar - Portfolio</title>
+  <style>
+    /* Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h1, h2, h3 {
+      color: #1a237e;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      animation: slideDown 0.6s ease-in-out;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    p, a {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    a {
+      color: #0d47a1;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #1e88e5;
+      text-decoration: underline;
+    }
+
+    /* Project Card Styles */
+    .project-card {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-left: 5px solid #1976d2;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: slideIn 0.7s ease-in-out;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Heading -->
+  <h1>Sachin Kumar</h1>
+
+  <!-- About Me -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm an aspiring web developer with a strong interest in creating responsive and user-friendly websites.
+      I have a background in computer science and a passion for solving real-world problems through technology.
+      I’m always eager to learn new tools and improve my skills to build impactful digital experiences.
+    </p>
+  </section>
+
+  <!-- Skills & Interests -->
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Basic Java Programming</li>
+      <li>DSA</li>
+      <li>SQL</li>
+    </ul>
+
+    <h2>Interests</h2>
+    <ol>
+      <li>Web Development</li>
+      <li>Open Source Projects</li>
+      <li>Problem Solving</li>
+    </ol>
+  </section>
+
+  <!-- Projects Section -->
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>To-Do List App</h3>
+      <p>A basic to-do list application created using JavaScript to manage daily tasks.</p>
+      <a href="https://sachinkumarssk.github.io/todo-123/" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Recipe Finder</h3>
+      <p>A recipe search tool using API that displays recipes based on ingredients.</p>
+      <a href="https://sachinkumarssk.github.io/food_reci-123/" target="_blank">View Project</a>
+    </div>
+  </section>-*
+
+  <!-- Contact Section -->
+  <section>
+    <h2>Contact Me</h2>
+    <p>Email: <a href="sacinkumarssm1011@gmail.com">mail us</a></p>
+    <p>
+      <a href="www.linkedin.com/in/sachin-kumar-0774b1185" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/sachinkumarssk" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+</body>
+</html>
